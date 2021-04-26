@@ -1,0 +1,17 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="One" value="one" />
+	<Parameter name="OneArea" value="1" />
+    <Parameter name="Two" value="two" />
+	<Parameter name="TwoArea" value="4" />
+    <Parameter name="Ten" value="ten" />
+	<Parameter name="TenArea" value="100" />	  
+    <Parameter name="Zero" value="zero" />
+	<Parameter name="ZeroArea" value="0" />
+	<Parameter name="Eleven" value="eleven" />
+
+	<Parameter name="GoodArea" value="40" />
+	<Parameter name="GoodRadius" value="3.57" />
+  </TestRunParameters>
+</RunSettings>
