@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
+	<PropertyGroup>
+		<RunSettingsFilePath>$(MSBuildProjectDirectory)\.runsettings</RunSettingsFilePath>
+	</PropertyGroup>
+
+	<PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
@@ -18,12 +22,13 @@
     <ProjectReference Include="..\CalcLibrary\CalcLibrary.csproj" />
   </ItemGroup>
 
+	
   <ItemGroup>
-    <None Update="Test-AreaCalc.runsettings">
+    <None Update=".runsettings">
       <Generator>SettingsSingleFileGenerator</Generator>
     </None>
   </ItemGroup>
-
+	
   <ItemGroup>
     <Folder Include="Report\" />
   </ItemGroup>

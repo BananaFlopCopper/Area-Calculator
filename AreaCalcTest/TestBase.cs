@@ -2,7 +2,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AreaCalcTest
 {
-    [TestClass]
     public class Base
     {
         public TestContext TestContext { get; set; }

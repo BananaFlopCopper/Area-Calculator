@@ -10,7 +10,6 @@
     <Parameter name="Zero" value="zero" />
 	<Parameter name="ZeroArea" value="0" />
 	<Parameter name="Eleven" value="eleven" />
-
 	<Parameter name="GoodArea" value="40" />
 	<Parameter name="GoodRadius" value="3.57" />
   </TestRunParameters>
